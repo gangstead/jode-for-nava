@@ -1,0 +1,28 @@
+.reveal .fa-twitter {
+  color: #00aced; }
+
+.reveal .container {
+  display: -ms-flexbox;
+  display: flex; }
+
+.reveal .col {
+  -ms-flex: 1;
+      flex: 1; }
+
+.reveal img.heading-logo {
+  vertical-align: middle;
+  height: 20%;
+  width: 20%; }
+
+.reveal img.bio-logo {
+  vertical-align: middle;
+  width: 17%; }
+
+.reveal .highlight {
+  color: #00aced; }
+
+.reveal .foot {
+  font-size: .5em; }
+
+.reveal .text-left {
+  text-align: left; }
