@@ -34,3 +34,11 @@
 .reveal .inline-code-contrast code {
   background-color: black;
   color: #faf2ad; }
+
+.reveal .left-col {
+  float: left;
+  width: 46%; }
+
+.reveal .right-col {
+  float: right;
+  width: 46%; }

@@ -44,4 +44,14 @@ $legalPadYellow: #faf2ad;
     background-color: black;
     color: $legalPadYellow;
   }
+
+  .left-col {
+    float: left;
+    width: 46%;
+  }
+
+  .right-col {
+    float: right;
+    width: 46%;
+  }
 }
