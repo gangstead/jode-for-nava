@@ -1,14 +1,6 @@
 .reveal .fa-twitter {
   color: #00aced; }
 
-.reveal .container {
-  display: -ms-flexbox;
-  display: flex; }
-
-.reveal .col {
-  -ms-flex: 1;
-      flex: 1; }
-
 .reveal img.heading-logo {
   vertical-align: middle;
   height: 20%;
@@ -26,3 +18,19 @@
 
 .reveal .text-left {
   text-align: left; }
+
+.reveal .tall-code code {
+  max-height: unset; }
+
+.reveal .blocking-text {
+  background: black;
+  color: red;
+  border-radius: .25em;
+  transform: rotate(-10deg); }
+
+.reveal .strong-contrast strong {
+  color: #00aced; }
+
+.reveal .inline-code-contrast code {
+  background-color: black;
+  color: #faf2ad; }

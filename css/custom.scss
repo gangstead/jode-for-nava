@@ -1,14 +1,8 @@
 $fancyBlue: #00aced;
+$legalPadYellow: #faf2ad;
 .reveal {
   .fa-twitter{
     color:#00aced;
-  }
-  .container{
-      display: flex;
-  }
-
-  .col{
-      flex: 1;
   }
 
   img.heading-logo{
@@ -30,5 +24,24 @@ $fancyBlue: #00aced;
   }
   .text-left {
     text-align: left;
+  }
+
+  .tall-code code{
+    max-height: unset;
+  }
+
+  .blocking-text {
+    background: black;
+    color: red;
+    border-radius: .25em;
+    transform: rotate(-10deg);
+  }
+
+  .strong-contrast strong{
+    color: $fancyBlue;
+  }
+  .inline-code-contrast code{
+    background-color: black;
+    color: $legalPadYellow;
   }
 }

@@ -30,7 +30,7 @@
          data-separator="^===="
          data-separator-vertical="^----"
          data-separator-notes="^Note:"
-         data-charset="iso-8859-15">
+         data-charset="utf8">
             <!--
                 Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
                 For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
@@ -48,6 +48,7 @@
       // - https://github.com/hakimel/reveal.js#dependencies
       Reveal.initialize({
         history: true,
+        // slideNumber: true,
         dependencies: [
           { src: 'plugin/markdown/marked.js' },
           { src: 'plugin/markdown/markdown.js' },
